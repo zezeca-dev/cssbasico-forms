@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com formulários</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h3>AGENDAMENTO DE VISITA</h3>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira o seu nome" size="20">
+        
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Ex.: jens@email.com">
+
+        <br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+
+        <br><br>
+
+        <label for="data_visita">Data Visita</label>
+        <input type="date" name="data_visita" id="data_visita">
+
+        <label for="hora_visita">Hora Visita</label>
+        <input type="time" name="hora_visita" id="hora_visita">
+
+        <br><br>
+
+        <label for="horas_visita">Duração Visita</label>
+        <input type="number" name="horas_visita" id="horas_visita" min="1" max="5">
+
+        <label for="atracao">Atração</label>
+        <select name="atracao" id="atracao">
+            <option value="zoologico">Selecionar</option>
+            <option value="zoologico">Zoológico</option>
+            <option value="zoologico">Aquário</option>
+            <option value="zoologico">Parque</option>
+        </select>
+    </form>
+</body>
+</html>
