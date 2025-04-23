@@ -7,6 +7,7 @@
 </head>
 <body>
     <form action="#" method="post">
+        <img src="gatinho.jpeg" width="200">
         <h3>AGENDAMENTO DE VISITA</h3>
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" placeholder="Insira o seu nome" size="20">
@@ -14,14 +15,14 @@
         <br><br>
 
         <label for="email">E-mail:</label>
-        <input type="email" name="email" id="email" placeholder="Ex.: jens@email.com">
+        <input type="email" name="email" id="email" placeholder="Ex.: seu@email.com">
 
         <br><br>
 
         <label for="telefone">Telefone:</label>
         <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
 
-        <br><br>
+        <br><br> 
 
         <label for="data_visita">Data Visita</label>
         <input type="date" name="data_visita" id="data_visita">
@@ -36,11 +37,26 @@
 
         <label for="atracao">Atração</label>
         <select name="atracao" id="atracao">
-            <option value="zoologico">Selecionar</option>
             <option value="zoologico">Zoológico</option>
             <option value="zoologico">Aquário</option>
             <option value="zoologico">Parque</option>
+            <option value="zoologico">Selecionar</option>
         </select>
+
+        <br><br>
+
+        <input type="checkbox" name="regras" id="regras" checked>
+        <label for="regras">Concordo com os padrões e regras da comunidade</label>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Escolha seu tipo de visita</legend>
+            <input type="radio" name="tipo_visita" id="visita_guiada" value="guiada">
+            <label for="visita_guiada">Visita guiada</label>
+            <input type="radio" name="tipo_visita" id="visita_livre" value="livre">
+            <label for="visita_livre">Visita livre</label>
+        </fieldset>
     </form>
 </body>
 </html>
