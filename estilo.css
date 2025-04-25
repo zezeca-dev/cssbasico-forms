@@ -1,0 +1,15 @@
+p{
+    color:blue;
+}
+
+.paragrafo{
+    color: rgb(162, 0, 255);
+    font-size: 20px;
+}
+#paragrafo{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+h1{
+    color:rgb(51, 255, 0);
+}
